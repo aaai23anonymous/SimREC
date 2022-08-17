@@ -3,12 +3,7 @@
 [![Python](https://img.shields.io/badge/python-blue.svg)](https://www.python.org/)
 ![PyTorch](https://img.shields.io/badge/pytorch-%237732a8) 
 
-SimREC is a simple and lightweight codebase for the research of referring expression comprehension and segmentation,  supporting large-scale pre-training and multi-task learning.   SimREC includes the official implementations of our paper  "[What Goes beyond Multi-modal Fusion in One-stage Referring Expression Comprehension: An Empirical Study](https://arxiv.org/pdf/2204.07913.pdf)" .  More models will be updated. 
-
-
-<p align="center">
-	<img src="./misc/SimREC.jpg" width="550">
-</p>
+SimREC is a simple and lightweight codebase for   our paper  "A Survivor in the Era of Large-Scale Pretraining: An Empirical Study of One-Stage Referring Expression Comprehension" .  More models will be updated. 
 
  
 
@@ -103,14 +98,9 @@ bash tools/eval.sh config/simrec_refcoco_scratch.py 4 /path/to/checkpoint
 ```
 
 ## Model Zoo
-SimREC supports all benchmarks of REC and RES, and  can easily achieve  very competitive performance.  More results  are available  in [Model Zoo](https://github.com/aaai23anonymous/SimREC/blob/main/MODEL_ZOO.md).
+More results  are available  in [Model Zoo](https://github.com/aaai23anonymous/SimREC/blob/main/MODEL_ZOO.md).
 
-|  Tasks  | RefCOCO | RefCOCO+ | RefCOCOg | Referit | Flickr | All REC data + VG (0.2M) |
-| :-----: | :-----: | :------: | :------: | :-----: | :----: | :----------------------: |
-|   REC   |    ✓    |    ✓     |    ✓     |    ✓    |   ✓    |            ✓             |
-|   RES   |    ✓    |    ✓     |    ✓     |    ✓    |   ×    |            ×             |
-| REC+RES |    ✓    |    ✓     |    ✓     |    ✓    |   ×    |            ×             |
-
+ 
 
 ## License
 
